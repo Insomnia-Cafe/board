@@ -320,3 +320,20 @@ section.site-footer {
 	padding: 0;
 	list-style: none;
 }
+
+.single_section ul{
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    left: 10px;
+    li{
+        
+        a{
+            text-decoration: none;
+        }
+    }
+}
