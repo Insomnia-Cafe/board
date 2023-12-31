@@ -70,7 +70,9 @@ img {
   text-align: right; }
 
 .notice_board_content {
-  padding: 30px; }
+  padding: 30px;
+  overflow: auto;
+  height: 350px; }
 
 .notice_board_content ul {
   padding: 0;
@@ -166,7 +168,7 @@ img {
   margin-bottom: 0; }
 
 .section__content {
-  padding: 20px; }
+  padding: auto; }
 
 .section__content img {
   width: 150px;
@@ -321,7 +323,43 @@ section.site-footer {
   flex-direction: column;
   gap: 5px;
   margin: 0;
-  padding: 0;
+  padding: 10px 15px;
   left: 10px; }
   .single_section ul li a {
     text-decoration: none; }
+
+.single_section .notice li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px; }
+
+.single_section .notice li a {
+  text-transform: capitalize; }
+
+.single_section .seba-somuho {
+  padding: 0;
+  gap: 2px; }
+  .single_section .seba-somuho li {
+    padding: 5px 15px;
+    background: #f7f7f7; }
+    .single_section .seba-somuho li a {
+      display: block; }
+
+.seba-section {
+  padding: 10px 15px; }
+  .seba-section h4 {
+    font-size: 20px; }
+
+.service-list h4 {
+  background: #241468;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 0; }
+
+.service-list-content {
+  display: flex;
+  gap: 10px; }
+  .service-list-content .service-list-notice ul {
+    padding: 0;
+    list-style: none; }

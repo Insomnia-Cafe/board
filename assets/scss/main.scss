@@ -57,6 +57,8 @@
 }
 .notice_board_content {
 	padding: 30px;
+	overflow: auto;
+	height: 350px;
   }
   .notice_board_content ul {
 	padding: 0;
@@ -161,8 +163,9 @@
 	margin-bottom: 0;
   }
   .section__content {
-	padding: 20px;
+	padding: auto;
   }
+
   
 .section__content img {
 	width: 150px;
@@ -328,7 +331,7 @@ section.site-footer {
     flex-direction: column;
     gap: 5px;
     margin: 0;
-    padding: 0;
+    padding: 10px 15px;
     left: 10px;
     li{
         
@@ -336,4 +339,61 @@ section.site-footer {
             text-decoration: none;
         }
     }
+}
+.single_section .notice{
+	li{
+		&:not(:last-child){
+			border-bottom: 1px solid #ddd;
+			padding-bottom: 5px;
+		}
+
+		a{
+			text-transform: capitalize;
+		}
+	}
+}
+.single_section .seba-somuho{
+	padding: 0;
+	gap: 2px;
+	li{
+		padding: 5px 15px;
+		background: #f7f7f7;
+		a{
+			display: block;
+		}
+	}
+}
+.seba-section{
+	padding: 10px 15px;
+	h4{
+		font-size: 20px;
+	}
+}
+
+// service list
+.service-list{
+	h4{
+		background: #241468;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 0;
+	}
+}
+.service-list-content{
+	display: flex;
+	gap: 10px;
+	.service-list-icon{
+
+	}
+	.service-list-notice{
+		ul{
+			padding: 0;
+			list-style: none;
+			li{
+
+			}
+		}
+	}
 }
