@@ -485,3 +485,44 @@ section.site-footer {
 	color: #fff;
 	border-color: #FF5170;
 }
+
+// event css
+.eventList_widget {
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.event_date_location {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.eventList_widget .event_thumb {
+	display: block;
+	overflow: hidden;
+}
+.eventList_widget .eventList_meta {
+	padding: 30px;
+}
+.eventList_widget .eventList_meta .eventList_title h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.eventList_widget .eventList_meta h4 {
+	margin: 20px 0 15px 0;
+}
+.eventList_widget .eventList_meta p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: capitalize;
+	color: #666666;
+	margin-bottom: 20px;
+}
+.eventList_widget .eventList_meta .event_date_location li {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FF5170;
+}
+.eventList_widget .eventList_meta .event_date_location li i {
+	margin-right: 15px;
+}
