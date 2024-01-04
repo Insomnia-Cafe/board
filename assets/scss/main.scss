@@ -509,6 +509,13 @@ section.site-footer {
 .eventList_widget .eventList_meta h4 {
 	margin: 20px 0 15px 0;
 }
+
+.eventList_widget .eventList_meta .eventList_title h3 span {
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
 .eventList_widget .eventList_meta p {
 	font-weight: 400;
 	font-size: 14px;
@@ -525,4 +532,85 @@ section.site-footer {
 }
 .eventList_widget .eventList_meta .event_date_location li i {
 	margin-right: 15px;
+}
+.notice_board_content.not-scroll {
+	overflow: hidden;
+	height: 100%;
+}
+
+// form
+.search_result_box {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 48px;
+}
+.section__title h3 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #202e3b;
+}
+.section__title p {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Libre Baskerville", serif;
+	color: #6B6B6B;
+	line-height: 30px;
+}
+.border_line {
+	background: #392C7D;
+	height: 2px;
+	width: 80px;
+	display: inline-block;
+}
+.primary_label2 {
+	font-family: "Libre Baskerville", serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #242424;
+	display: block;
+	margin-bottom: 14px;
+	line-height: 1;
+}
+.contact_department_box {
+	background: #F7F7F7;
+	border-radius: 22.223px;
+	padding: 70px 25px;
+	transition: .3s;
+}
+.contact_department_box .icon::before {
+	content: '';
+	width: 47px;
+	height: 47px;
+	background: rgba(199, 201, 100, 0.2);
+	border-radius: 50%;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+}
+.contact_department_box .icon {
+	width: 60px;
+	height: 60px;
+	display: inline-flex;
+	position: relative;
+}
+.contact_department_box h3 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	margin: 22px 0 14px 0;
+	color: #333333;
+}
+.contact_department_box p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	/* text-transform: capitalize; */
+	color: #666666;
 }
